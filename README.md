@@ -32,6 +32,8 @@ With the Adam optimizer, paper accuracy can be reached in ~100 epochs.
 
 ## Usage
 
+aistudio project website: https://aistudio.baidu.com/aistudio/projectdetail/3152140?contributionType=1
+
 The easiest way to start training your RAM variant is to edit the parameters in `config.py` and run the following command:
 
 ```
