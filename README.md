@@ -24,7 +24,7 @@ I decided to tackle the `28x28` MNIST task with the RAM model containing 6 glimp
 
 | Model | Validation Error | Test Error |
 |-------|------------------|------------|
-| 6 8x8 | 1.982            | 1.90       |
+| 6 8x8 | 1.982            | 2.12       |
 
 I haven't done random search on the policy standard deviation to tune it, so I expect the test error can be reduced to sub `1%` error. I'll be updating the table above with results for the `60x60` Translated MNIST, `60x60` Cluttered Translated MNIST and the new Fashion MNIST dataset when I get the time.
 
