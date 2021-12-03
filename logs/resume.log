@@ -1,0 +1,165 @@
+/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/matplotlib/__init__.py:107: DeprecationWarning: Using or importing the ABCs from 'collections' instead of from 'collections.abc' is deprecated, and in 3.8 it will stop working
+  from collections import MutableMapping
+/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/matplotlib/rcsetup.py:20: DeprecationWarning: Using or importing the ABCs from 'collections' instead of from 'collections.abc' is deprecated, and in 3.8 it will stop working
+  from collections import Iterable, Mapping
+/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/matplotlib/colors.py:53: DeprecationWarning: Using or importing the ABCs from 'collections' instead of from 'collections.abc' is deprecated, and in 3.8 it will stop working
+  from collections import Sized
+INFO:matplotlib.font_manager:font search path ['/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf', '/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/afm', '/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/pdfcorefonts']
+INFO:matplotlib.font_manager:generated new fontManager
+Cache file /home/aistudio/.cache/paddle/dataset/mnist/train-images-idx3-ubyte.gz not found, downloading https://dataset.bj.bcebos.com/mnist/train-images-idx3-ubyte.gz 
+Begin to download
+item 2421/2421 [============================>.] - ETA: 0s - 134us/it
+Download finished
+Cache file /home/aistudio/.cache/paddle/dataset/mnist/train-labels-idx1-ubyte.gz not found, downloading https://dataset.bj.bcebos.com/mnist/train-labels-idx1-ubyte.gz 
+Begin to download
+item 8/8 [============================>.] - ETA: 0s - 2ms/it
+Download finished
+W1203 00:15:05.655346   441 device_context.cc:447] Please NOTE: device: 0, GPU Compute Capability: 7.0, Driver API Version: 10.1, Runtime API Version: 10.1
+W1203 00:15:05.659191   441 device_context.cc:465] device: 0, cuDNN Version: 7.6.
+in ParamBase copy_to func
+/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/paddle/fluid/dygraph/varbase_patch_methods.py:392: UserWarning: 
+Warning:
+tensor.grad will return the tensor value of the gradient. This is an incompatible upgrade for tensor.grad API.  It's return type changes from numpy.ndarray in version 2.0 to paddle.Tensor in version 2.1.0.  If you want to get the numpy value of the gradient, you can use :code:`x.grad.numpy()` 
+  warnings.warn(warning_msg)
+in ParamBase copy_to func
+in ParamBase copy_to func
+in ParamBase copy_to func
+in ParamBase copy_to func
+in ParamBase copy_to func
+in ParamBase copy_to func
+in ParamBase copy_to func
+in ParamBase copy_to func
+in ParamBase copy_to func
+in ParamBase copy_to func
+in ParamBase copy_to func
+in ParamBase copy_to func
+in ParamBase copy_to func
+in ParamBase copy_to func
+in ParamBase copy_to func
+in ParamBase copy_to func
+in ParamBase copy_to func
+in ParamBase copy_to func
+in ParamBase copy_to func
+[*] Model Checkpoint Dir: ./ckpt
+[*] Param Path: ./ckpt/ram_6_8x8_1_params.json
+[*] Loading model from ./ckpt
+[*] Loaded ram_6_8x8_1_ckpt.pth.tar checkpoint @ epoch 87
+
+[*] Train on 60000 samples, validate on 60000 samples
+
+Epoch: 88/200 - LR: 0.000300
+  0%|                                                 | 0/60000 [00:00<?, ?it/s]/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/paddle/tensor/creation.py:130: DeprecationWarning: `np.object` is a deprecated alias for the builtin `object`. To silence this warning, use `object` by itself. Doing this will not modify any behavior and is safe. 
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  if data.dtype == np.object:
+1681.6s - loss: 0.213 - acc: 95.833: 100%|█| 60000/60000 [28:01<00:00, 35.84it/s] 
+/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/paddle/tensor/creation.py:130: DeprecationWarning: `np.object` is a deprecated alias for the builtin `object`. To silence this warning, use `object` by itself. Doing this will not modify any behavior and is safe. 
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  if data.dtype == np.object:
+train loss: 0.095 - train acc: 97.663 - val loss: 0.089 - val acc: 97.858 - val err: 2.142
+
+Epoch: 89/200 - LR: 0.000300
+  0%|                                                 | 0/60000 [00:00<?, ?it/s]/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/paddle/tensor/creation.py:130: DeprecationWarning: `np.object` is a deprecated alias for the builtin `object`. To silence this warning, use `object` by itself. Doing this will not modify any behavior and is safe. 
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  if data.dtype == np.object:
+1678.7s - loss: 0.094 - acc: 97.917: 100%|█| 60000/60000 [27:58<00:00, 35.86it/s] 
+/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/paddle/tensor/creation.py:130: DeprecationWarning: `np.object` is a deprecated alias for the builtin `object`. To silence this warning, use `object` by itself. Doing this will not modify any behavior and is safe. 
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  if data.dtype == np.object:
+train loss: 0.096 - train acc: 97.653 - val loss: 0.095 - val acc: 97.685 - val err: 2.315
+
+Epoch: 90/200 - LR: 0.000300
+  0%|                                                 | 0/60000 [00:00<?, ?it/s]/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/paddle/tensor/creation.py:130: DeprecationWarning: `np.object` is a deprecated alias for the builtin `object`. To silence this warning, use `object` by itself. Doing this will not modify any behavior and is safe. 
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  if data.dtype == np.object:
+1681.3s - loss: 0.178 - acc: 96.875: 100%|█| 60000/60000 [28:01<00:00, 35.57it/s] 
+/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/paddle/tensor/creation.py:130: DeprecationWarning: `np.object` is a deprecated alias for the builtin `object`. To silence this warning, use `object` by itself. Doing this will not modify any behavior and is safe. 
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  if data.dtype == np.object:
+train loss: 0.094 - train acc: 97.790 - val loss: 0.090 - val acc: 97.855 - val err: 2.145
+
+Epoch: 91/200 - LR: 0.000300
+  0%|                                                 | 0/60000 [00:00<?, ?it/s]/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/paddle/tensor/creation.py:130: DeprecationWarning: `np.object` is a deprecated alias for the builtin `object`. To silence this warning, use `object` by itself. Doing this will not modify any behavior and is safe. 
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  if data.dtype == np.object:
+1681.4s - loss: 0.064 - acc: 98.958: 100%|█| 60000/60000 [28:01<00:00, 35.24it/s] 
+/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/paddle/tensor/creation.py:130: DeprecationWarning: `np.object` is a deprecated alias for the builtin `object`. To silence this warning, use `object` by itself. Doing this will not modify any behavior and is safe. 
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  if data.dtype == np.object:
+train loss: 0.093 - train acc: 97.782 - val loss: 0.089 - val acc: 97.802 - val err: 2.198
+
+Epoch: 92/200 - LR: 0.000300
+  0%|                                                 | 0/60000 [00:00<?, ?it/s]/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/paddle/tensor/creation.py:130: DeprecationWarning: `np.object` is a deprecated alias for the builtin `object`. To silence this warning, use `object` by itself. Doing this will not modify any behavior and is safe. 
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  if data.dtype == np.object:
+1679.7s - loss: 0.040 - acc: 98.958: 100%|█| 60000/60000 [27:59<00:00, 35.90it/s] 
+/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/paddle/tensor/creation.py:130: DeprecationWarning: `np.object` is a deprecated alias for the builtin `object`. To silence this warning, use `object` by itself. Doing this will not modify any behavior and is safe. 
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  if data.dtype == np.object:
+train loss: 0.094 - train acc: 97.722 - val loss: 0.080 - val acc: 97.997 - val err: 2.003 [*]
+
+Epoch: 93/200 - LR: 0.000300
+  0%|                                                 | 0/60000 [00:00<?, ?it/s]/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/paddle/tensor/creation.py:130: DeprecationWarning: `np.object` is a deprecated alias for the builtin `object`. To silence this warning, use `object` by itself. Doing this will not modify any behavior and is safe. 
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  if data.dtype == np.object:
+1679.7s - loss: 0.092 - acc: 96.875: 100%|█| 60000/60000 [27:59<00:00, 35.56it/s] 
+/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/paddle/tensor/creation.py:130: DeprecationWarning: `np.object` is a deprecated alias for the builtin `object`. To silence this warning, use `object` by itself. Doing this will not modify any behavior and is safe. 
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  if data.dtype == np.object:
+train loss: 0.093 - train acc: 97.765 - val loss: 0.084 - val acc: 97.985 - val err: 2.015
+
+Epoch: 94/200 - LR: 0.000300
+  0%|                                                 | 0/60000 [00:00<?, ?it/s]/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/paddle/tensor/creation.py:130: DeprecationWarning: `np.object` is a deprecated alias for the builtin `object`. To silence this warning, use `object` by itself. Doing this will not modify any behavior and is safe. 
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  if data.dtype == np.object:
+1680.3s - loss: 0.165 - acc: 93.750: 100%|█| 60000/60000 [28:00<00:00, 35.82it/s] 
+/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/paddle/tensor/creation.py:130: DeprecationWarning: `np.object` is a deprecated alias for the builtin `object`. To silence this warning, use `object` by itself. Doing this will not modify any behavior and is safe. 
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  if data.dtype == np.object:
+train loss: 0.094 - train acc: 97.750 - val loss: 0.079 - val acc: 98.018 - val err: 1.982 [*]
+
+Epoch: 95/200 - LR: 0.000300
+  0%|                                                 | 0/60000 [00:00<?, ?it/s]/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/paddle/tensor/creation.py:130: DeprecationWarning: `np.object` is a deprecated alias for the builtin `object`. To silence this warning, use `object` by itself. Doing this will not modify any behavior and is safe. 
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  if data.dtype == np.object:
+1679.9s - loss: 0.091 - acc: 96.875: 100%|█| 60000/60000 [27:59<00:00, 35.80it/s] 
+/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/paddle/tensor/creation.py:130: DeprecationWarning: `np.object` is a deprecated alias for the builtin `object`. To silence this warning, use `object` by itself. Doing this will not modify any behavior and is safe. 
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  if data.dtype == np.object:
+train loss: 0.084 - train acc: 97.980 - val loss: 0.093 - val acc: 97.780 - val err: 2.220
+
+Epoch: 96/200 - LR: 0.000300
+  0%|                                                 | 0/60000 [00:00<?, ?it/s]/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/paddle/tensor/creation.py:130: DeprecationWarning: `np.object` is a deprecated alias for the builtin `object`. To silence this warning, use `object` by itself. Doing this will not modify any behavior and is safe. 
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  if data.dtype == np.object:
+1477.6s - loss: 0.081 - acc: 98.438:  88%|▉| 52736/60000 [24:37<03:22, 35.84it/s] ^C
+
+Traceback (most recent call last):
+  File "main.py", line 52, in <module>
+    main(config)
+  File "main.py", line 44, in main
+    trainer.train()
+  File "/home/aistudio/paper10-recurrent-visual-attention-using-paddlepaddle/trainer.py", line 192, in train
+    train_loss, train_acc = self.train_one_epoch(epoch)
+  File "/home/aistudio/paper10-recurrent-visual-attention-using-paddlepaddle/trainer.py", line 273, in train_one_epoch
+    h_t, l_t, b_t, p = self.model(x, l_t, h_t, last=False)
+  File "/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/paddle/fluid/dygraph/layers.py", line 914, in __call__
+    outputs = self.forward(*inputs, **kwargs)
+  File "/home/aistudio/paper10-recurrent-visual-attention-using-paddlepaddle/model.py", line 83, in forward
+    g_t = self.sensor(x, l_t_prev)
+  File "/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/paddle/fluid/dygraph/layers.py", line 914, in __call__
+    outputs = self.forward(*inputs, **kwargs)
+  File "/home/aistudio/paper10-recurrent-visual-attention-using-paddlepaddle/modules.py", line 201, in forward
+    phi = self.retina.foveate(x, l_t_prev)
+  File "/home/aistudio/paper10-recurrent-visual-attention-using-paddlepaddle/modules.py", line 60, in foveate
+    phi.append(self.extract_patch(x, l, size))
+  File "/home/aistudio/paper10-recurrent-visual-attention-using-paddlepaddle/modules.py", line 112, in extract_patch
+    patch.append(padded_x[i, :, top_left[i, 1]:bottom_right[i, 1], top_left[i, 0]:bottom_right[i, 0]])
+  File "/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/paddle/fluid/dygraph/varbase_patch_methods.py", line 594, in __getitem__
+    return _getitem_impl_(self, item)
+  File "/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/paddle/fluid/variable_index.py", line 463, in _getitem_impl_
+    attrs=attrs)
+  File "/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/paddle/fluid/framework.py", line 3167, in append_op
+    kwargs.get("stop_gradient", False))
+  File "/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/paddle/fluid/dygraph/tracer.py", line 45, in trace_op
+    not stop_gradient)
+KeyboardInterrupt
