@@ -1,0 +1,46 @@
+/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/matplotlib/__init__.py:107: DeprecationWarning: Using or importing the ABCs from 'collections' instead of from 'collections.abc' is deprecated, and in 3.8 it will stop working
+  from collections import MutableMapping
+/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/matplotlib/rcsetup.py:20: DeprecationWarning: Using or importing the ABCs from 'collections' instead of from 'collections.abc' is deprecated, and in 3.8 it will stop working
+  from collections import Iterable, Mapping
+/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/matplotlib/colors.py:53: DeprecationWarning: Using or importing the ABCs from 'collections' instead of from 'collections.abc' is deprecated, and in 3.8 it will stop working
+  from collections import Sized
+Cache file /home/aistudio/.cache/paddle/dataset/mnist/t10k-images-idx3-ubyte.gz not found, downloading https://dataset.bj.bcebos.com/mnist/t10k-images-idx3-ubyte.gz 
+Begin to download
+item 403/403 [============================>.] - ETA: 0s - 477us/it
+Download finished
+Cache file /home/aistudio/.cache/paddle/dataset/mnist/t10k-labels-idx1-ubyte.gz not found, downloading https://dataset.bj.bcebos.com/mnist/t10k-labels-idx1-ubyte.gz 
+Begin to download
+item 2/2 [===========================>..] - ETA: 0s - 726us/it
+Download finished
+W1203 08:09:14.631249 14982 device_context.cc:447] Please NOTE: device: 0, GPU Compute Capability: 7.0, Driver API Version: 10.1, Runtime API Version: 10.1
+W1203 08:09:14.635139 14982 device_context.cc:465] device: 0, cuDNN Version: 7.6.
+in ParamBase copy_to func
+/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/paddle/fluid/dygraph/varbase_patch_methods.py:392: UserWarning: 
+Warning:
+tensor.grad will return the tensor value of the gradient. This is an incompatible upgrade for tensor.grad API.  It's return type changes from numpy.ndarray in version 2.0 to paddle.Tensor in version 2.1.0.  If you want to get the numpy value of the gradient, you can use :code:`x.grad.numpy()` 
+  warnings.warn(warning_msg)
+in ParamBase copy_to func
+in ParamBase copy_to func
+in ParamBase copy_to func
+in ParamBase copy_to func
+in ParamBase copy_to func
+in ParamBase copy_to func
+in ParamBase copy_to func
+in ParamBase copy_to func
+in ParamBase copy_to func
+in ParamBase copy_to func
+in ParamBase copy_to func
+in ParamBase copy_to func
+in ParamBase copy_to func
+in ParamBase copy_to func
+in ParamBase copy_to func
+in ParamBase copy_to func
+in ParamBase copy_to func
+in ParamBase copy_to func
+in ParamBase copy_to func
+[*] Loading model from ./ckpt
+[*] Loaded ram_6_8x8_1_model_best.pth.tar checkpoint @ epoch 94 with best valid acc of 98.018
+/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/paddle/tensor/creation.py:130: DeprecationWarning: `np.object` is a deprecated alias for the builtin `object`. To silence this warning, use `object` by itself. Doing this will not modify any behavior and is safe. 
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  if data.dtype == np.object:
+[*] Test Acc: 9810.0/10000 (98.10% - Error: 1.90%)
