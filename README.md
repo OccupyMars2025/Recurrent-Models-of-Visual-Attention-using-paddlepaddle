@@ -55,3 +55,4 @@ python main.py --is_train=False
 ## References
 
 - [A PyTorch Implementation of "Recurrent Models of Visual Attention"](https://github.com/kevinzakka/recurrent-visual-attention)
+- [training and test process of the reference code](https://github.com/SmirnovKol/recurrent-visual-attention/blob/master/train_and_test.ipynb)
