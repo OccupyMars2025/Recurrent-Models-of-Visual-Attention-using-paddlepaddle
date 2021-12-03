@@ -1,0 +1,35 @@
+/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/setuptools/depends.py:2: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+  import imp
+/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/matplotlib/__init__.py:107: DeprecationWarning: Using or importing the ABCs from 'collections' instead of from 'collections.abc' is deprecated, and in 3.8 it will stop working
+  from collections import MutableMapping
+/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/matplotlib/rcsetup.py:20: DeprecationWarning: Using or importing the ABCs from 'collections' instead of from 'collections.abc' is deprecated, and in 3.8 it will stop working
+  from collections import Iterable, Mapping
+/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/matplotlib/colors.py:53: DeprecationWarning: Using or importing the ABCs from 'collections' instead of from 'collections.abc' is deprecated, and in 3.8 it will stop working
+  from collections import Sized
+in ParamBase copy_to func
+/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/paddle/fluid/dygraph/varbase_patch_methods.py:392: UserWarning: 
+Warning:
+tensor.grad will return the tensor value of the gradient. This is an incompatible upgrade for tensor.grad API.  It's return type changes from numpy.ndarray in version 2.0 to paddle.Tensor in version 2.1.0.  If you want to get the numpy value of the gradient, you can use :code:`x.grad.numpy()` 
+  warnings.warn(warning_msg)
+in ParamBase copy_to func
+in ParamBase copy_to func
+in ParamBase copy_to func
+in ParamBase copy_to func
+in ParamBase copy_to func
+in ParamBase copy_to func
+in ParamBase copy_to func
+in ParamBase copy_to func
+in ParamBase copy_to func
+in ParamBase copy_to func
+in ParamBase copy_to func
+in ParamBase copy_to func
+in ParamBase copy_to func
+in ParamBase copy_to func
+in ParamBase copy_to func
+in ParamBase copy_to func
+in ParamBase copy_to func
+in ParamBase copy_to func
+in ParamBase copy_to func
+[*] Loading model from ./ckpt
+[*] Loaded ram_6_8x8_1_model_best.pdparams checkpoint @ epoch 94 with best valid acc of 98.018
+[*] Test Acc: 9788.0/10000 (97.88% - Error: 2.12%)
